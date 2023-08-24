@@ -1,0 +1,98 @@
+:root {
+    /*Primary*/
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    /*Neutral*/
+    --veryDarkBlue-main: hsl(217, 54%, 11%);
+    --veryDarkBlue-card: hsl(216, 50%, 16%);
+    --veryDarkBlue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--veryDarkBlue-main);
+    color: var(--white);
+    font-size: 18px;
+    /* margin: 0%; */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    margin-top: 75px;
+    background-color: var(--veryDarkBlue-card);
+    height: 590px;
+    width: 340px;
+    border-radius: 10px;
+    box-shadow: hsl(215, 54%, 7%) 0px 15px 20px 10px;
+    color: var(--soft-blue);
+}
+
+.card h3 {
+    color: var(--white);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.equilibrium {
+    margin-top: 22px;
+    width: 290px;
+    height: 290px;
+    border-radius: 10px;
+}
+
+.infos {
+    padding: 0 25px;
+    font-weight: 300;
+}
+
+.value {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.eth {
+    color: var(--cyan);
+}
+
+.value section {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+hr {
+    border: 0px;
+    border-top: 1px solid var(--soft-blue);
+}
+
+.autor {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.autor img{
+    height: 32px;
+    width: 32px;
+    border: 1px solid white;
+    border-radius: 50%;    
+}
